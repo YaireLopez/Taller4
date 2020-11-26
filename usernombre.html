@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UserNombre</title>
+	$ npm install tailwindcss
+</head>
+<body>
+	<h1>Formulario 2</h1>
+	<form id="form1" method="post" action="enviar-php"> 
+		<label for="id_usr">Id usuario :</label><br>
+		<input type="text" name="id_usr" required="" pattern="[0-9]+" maxlength="11" class="form-control"><br>
+		<label for="id_pais">Id pais :</label><br>
+		<input type="text" name="id_pais" required="" pattern="[0-9]+" maxlength="3" class="form-control"><br>
+		<label for="nombre">Nombre :</label><br>
+		<input type="text" name="nombre" maxlength="25" class="form-control"><br>
+		<label for="apellido">Apellido :</label><br>
+		<input type="text" name="apellido" maxlength="25" class="form-control"><br>
+		<label for="direccion">Dirección :</label><br>
+		<input type="text" name="direccion" maxlength="45" class="form-control"><br>
+		<label for="ccusuario">ccusuario :</label><br>
+		<input type="text" name="ccusuario" maxlength="20" class="form-control"><br>
+		<label for="ccpassword">ccpassword :</label><br>
+		<input type="text" name="ccpassword" class="form-control"><br>
+		<label for="email">Email :</label><br>
+		<input type="text" name="email" maxlength="120 " class="form-control"><br>
+		<label for="telefono">Telefono :</label><br>
+		<input type="text" name="telefono" maxlength="20" class="form-control"><br>
+		<button>Registrarse</button>
+	</form>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>userbootstrap</title>
+	<!-- JQUERY -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!--FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<scriptsrc="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+	<!-- Los iconos tipo Solid de Fontawesome-->
+	<linkrel="stylesheet"href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+	<scriptsrc="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+	<!-- Nuestro css-->
+	<link rel="stylesheet" href="userbootstrap.css">
+</head>
+<body>
+	<div class="modal-dialog text-center">
+		<div class="col-sm-8 main-section">
+			<div class="modal-content">
+				<div class="col-12 user-img">
+					<img src="https://www.freepngimg.com/thumb/facebook/62681-flat-icons-face-computer-design-avatar-icon-thumb.png">
+				</div><br>
+				<form class="col-12">
+					<div class="form">
+						<div class="grupo">
+							<label for="id_usr">Id Usuario :</label><br>
+							<input required="" type="text" name="id_usr" pattern="[0-9]+" placeholder="Id Usuario" maxlength="11">
+						</div>
+						<div class="grupo">
+							<span>Id Pais :</span><br>
+							<select name="select">
+								<option value=""><p style="color: #9C9888";>Seleccione País</p></option>
+								<option>124-Colombia</option>
+								<option>654-Chile</option>
+								<option>567-México</option>
+								<option>536-Argentina</option>
+								<option>674-España</option>
+								<option>908-Cuba</option>
+								<option>883-Venezuela</option>
+							</select>
+						</div>
+									
+						<div class="grupo">
+							<label for="nombre">Nombre :</label><br>
+							<input required="" placeholder="Nombre" type="text" name="nombre" maxlength="25">
+						</div>
+						<div class="grupo">
+							<label for="apellido">Apellido :</label><br>
+							<input required="" placeholder="Apellido" type="text" name="apellido" maxlength="25">
+						</div>
+						<div class="grupo">
+							<label for="direccion">Dirección :</label><br>
+							<input placeholder="Dirección" type="text" name="direccion" maxlength="45">
+						</div>
+						<div class="grupo">
+							<label for="ccusuario">Cédula Usuario :</label><br>
+							<input required="" placeholder="CCusuario" type="text" name="ccusuario" maxlength="20">
+						</div>
+						<div class="grupo">
+							<label for="ccpassword">Contraseña :</label><br>
+							<input required="" placeholder="Contraseña" type="password" name="ccpassword">
+						</div>
+						<div class="grupo">
+							<label for="email">Email :</label><br>
+							<input placeholder="E-mail" type="text" name="email" maxlength="120">
+						</div>
+						<div class="grupo">
+							<label for="telefono">Telefono :</label><br>
+							<input placeholder="Teléfono" type="email" name="telefono" maxlength="20">
+						</div><br>
+							<input class="btn btn-primary" type="submit" value="Registrarse">
+					</div><br>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

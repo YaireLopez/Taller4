@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>carbootstrap</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!--FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<scriptsrc="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+	<!-- Los iconos tipo Solid de Fontawesome-->
+	<linkrel="stylesheet"href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+	<scriptsrc="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+	<!-- Nuestro css-->
+	<link rel="stylesheet" href="carbootstrap.css">
+</head>
+<body>
+	<div class="modal-dialog text-center">
+		<div class="col-sm-8 main-section">
+			<div class="modal-content">
+				<div class="col-12 user-img">
+					<img src="https://www.freepngimg.com/thumb/facebook/62681-flat-icons-face-computer-design-avatar-icon-thumb.png">
+				</div><br>
+				<form class="col-12">
+					<div class="form">
+						<div class="grupo">
+							<label for="id_usr">Id Coche :</label>
+							<input placeholder="Id Coche" type="text" name="id_coche" pattern="[0-9]+" maxlength="11">
+						</div>
+						<div class="grupo">
+							<span>Tipo de combustible :</span><br>
+								<select id="id_movidoa" name="select">
+									<option> Seleccione </option>
+									<option>124-Hythane</option>
+									<option>654-Biometano</option>
+									<option>567-Gas natural</option>
+									<option>536-Bioetanol </option>
+									<option>674-Gasolina</option>
+								</select>
+						</div>
+						<div class="grupo">
+							<span>Tipo de carro :</span><br>
+								<select id="id_tipocoche" name="select">
+									<option> Seleccione </option>
+									<option>889-Monovolumen</option>
+									<option>545-Berlina</option>
+									<option>243-Cupé</option>
+									<option>765-Hatchback </option>
+									<option>865-Cabriolet</option>
+									<option>990-Roadster</option>
+									<option>793-Tourer</option>
+									<option>892-Todoterreno</option>
+									<option>121-Crossover</option>
+									<option>013-SUV</option>
+								</select>
+						</div>
+						<div class="grupo">
+							<span>Estado del carro :</span><br>
+								<select id="id_estado" name="select">
+									<option> Seleccione </option>
+									<option>001-Excelente</option>
+									<option>002-Muy Bueno</option>
+									<option>003-Bueno</option>
+									<option>004-Aceptable </option>
+								</select>
+						</div>
+						<div class="grupo">
+							<span>Marca del carro :</span><br>
+								<select id="id_marca" name="select">
+									<option> Seleccione </option>
+									<option>103-Nissan</option>
+									<option>209-Toyota</option>
+									<option>287-Chevrolet</option>
+									<option>347-Renault</option>
+									<option>365-KIA</option>
+									<option>423-Audi</option>
+									<option>475-BMW</option>
+									<option>598-Mercedes Benz</option>
+									<option>984-Ford</option>
+									<option>876-Opel</option>
+								</select>
+						</div>
+						<div class="grupo">
+							<span>Id User :</span><br>
+								<select id="id_usr" name="select">
+									<option> Seleccione </option>
+									<option>103878</option>
+									<option>2095456564</option>
+									<option>287345</option>
+									<option>3476546</option>
+									<option>3654565466</option>
+									<option>4235656</option>
+									<option>4754656</option>
+									<option>59835445</option>
+									<option>984674</option>
+									<option>87625463</option>
+								</select>
+						</div>
+						<div class="grupo">
+							<label for="modelo">Modelo Coche :</label>
+							<input placeholder="Modelo Coche" type="text" name="modelo" maxlength="60">
+						</div>
+						<div class="grupo">
+							<label for="anio">Año :</label>
+							<input placeholder="Año" type="text" name="anio" maxlength="4">
+						</div>
+						<div class="grupo">
+							<label for="detalle">Detalle :</label>
+							<input placeholder="Detalle" type="text" name="detalle">
+						</div>
+						<div class="grupo">
+							<label for="caja">Caja :</label>
+							<input placeholder="Caja" type="number" name="caja">
+						</div>
+						<div class="grupo">
+							<label for="motor">Motor :</label>
+							<input placeholder="Motor" type="text" name="motor" maxlength="3">
+						</div>
+						<div class="grupo">
+							<label for="fechapub">Fecha de Publicación :</label>
+							<input placeholder="Fecha de Publicación" type="text" name="fechapub" maxlength="10">
+						</div>
+						<div class="grupo">
+							<label for="precio">Precio :</label>
+							<input placeholder="Precio" type="text" name="precio" maxlength="7">
+						</div>
+						<div class="grupo">
+							<label for="moneda">Moneda :</label>
+							<input placeholder="Moneda" type="text" name="moneda" maxlength="3">
+						</div>
+						<div class="grupo">
+							<label for="cc_pic01">Descripción 1 del carro</label><br><br>
+							<textarea placeholder="Escribe aquí" maxlength="85" name="cc_pic01" rows="5" cols="30"></textarea>
+						</div>
+						<div class="grupo">
+							<label for="cc_pic02">Descripción 2 del carro</label><br><br>
+							<textarea placeholder="Escribe aquí" maxlength="85" name="cc_pic02" rows="5" cols="30"></textarea>
+						</div>
+						<div class="grupo">
+							<label for="cc_pic03">Descripción 3 del carro</label><br><br>
+							<textarea placeholder="Escribe aquí" maxlength="85" name="cc_pic03" rows="5" cols="30"></textarea>
+						</div>
+						<div class="grupo">
+							<label for="cc_destac">CC Destac :</label>
+							<input placeholder="CC Destac" type="text" name="cc_destac">
+						</div><br>
+						<input class="btn btn-primary" type="submit" value="Registrarse">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body{
+	background-image: url(https://image.winudf.com/v2/image/Y29tLmVhcnRod2FsbHBhcGVyci5nYWxheHl3YWxscGFwZXJzX3NjcmVlbl8yXzE1MDg4NzE4NzVfMDMy/screen-2.jpg?fakeurl=1&type=.jpg);
+	background-size: cover;
+	font-family: 'arial';
+}
+
+.main-section{
+	margin: 0 auto;
+	margin-top: 25%;
+	padding: 0;
+}
+
+.user-img{
+	margin-top: -50px;
+	margin-bottom: 10px;
+}
+
+.user-img img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+
+.modal-content{
+	background-color: #B1A0DF;
+	opacity: .85;
+	padding: 0 20px;
+	box-shadow: 0px 0px 3.8px #927BD1;
+}
+input{
+	background: #927BD1;
+	color: #F6F5F8;
+	font-size: 18px;
+	padding: 10px 10px 10px 5px;
+	display: block;
+	width: 100%;
+	border:none;
+}
+select{
+	background: #927BD1;
+	color: #F6F5F8;
+	font-size: 18px;
+	padding: 10px 10px 10px 5px;
+	display: block;
+	width: 100%;
+	border:none;
+}
+textarea{
+	background: #927BD1;
+	color: #F6F5F8;
+	font-size: 18px;
+	padding: 10px 10px 10px 5px;
+	display: block;
+	width: 100%;
+	border:none;
+}
+
+button{
+	width: 60%;
+	margin: 5px 0 25px;
+}

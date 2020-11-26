@@ -1,0 +1,52 @@
+body{
+	background-image: url(https://www.publicdomainpictures.net/pictures/90000/nahled/background-texture-pastel-colors.jpg);
+	background-size: cover;
+	font-family: 'arial';
+}
+
+.main-section{
+	margin: 0 auto;
+	margin-top: 25%;
+	padding: 0;
+}
+
+.user-img{
+	margin-top: -50px;
+	margin-bottom: 10px;
+}
+
+.user-img img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+
+.modal-content{
+	background-color: #F7C039;
+	opacity: .85;
+	padding: 0 20px;
+	box-shadow: 0px 0px 3.8px #A4780B;
+}
+input{
+	background: #CB9E04;
+	color: #020202;
+	font-size: 18px;
+	padding: 10px 10px 10px 5px;
+	display: block;
+	width: 100%;
+	border:none;
+}
+select{
+	background: #CB9E04;
+	color: #020202;
+	font-size: 18px;
+	padding: 10px 10px 10px 5px;
+	display: block;
+	width: 100%;
+	border:none;
+}
+
+button{
+	width: 60%;
+	margin: 5px 0 25px;
+}
